@@ -24,11 +24,12 @@ function Chat() {
                     <IconButton>
                         <MoreVert />
                     </IconButton>
-
                 </div>
             </div>
             <div className="chat__body">
-                
+                <p>Message 1</p>
+                <p>Message 2</p>
+                <p>Message 3</p>
             </div>
         </div>
     )
