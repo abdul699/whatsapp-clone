@@ -6,7 +6,7 @@ import './Chat.css'
 
 function Chat() {
     return (
-        <div class="chat">
+        <div className="chat">
             <div className="chat__header">
                 <Avatar />
 

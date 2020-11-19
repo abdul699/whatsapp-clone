@@ -79,10 +79,11 @@
     border-radius: 30px;
     padding: 10px;
     border: none;
+    outline-width: 0;
 }
 
 .chat__footer > form > button {
-    border: none;
+    display: none;
 }
 
 .chat__footer > .MuiSvgIcon-root {
