@@ -42,7 +42,6 @@ function Chat({ messages }) {
                     <IconButton>
                         <MoreVert />
                     </IconButton>
-
                 </div>
             </div>
             <div className="chat__body">
@@ -74,7 +73,6 @@ function Chat({ messages }) {
                 <IconButton>
                     <MicIcon />
                 </IconButton>
-
             </div>
         </div>
     )

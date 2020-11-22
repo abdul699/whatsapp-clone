@@ -11,10 +11,10 @@ const port = process.env.PORT || 9000;
 
 // for realtime messaging -- Can use soket.io as well
 const pusher = new Pusher({
-    appId: "########",
-    key: "#################",
-    secret: "####################",
-    cluster: "###",
+    appId: "1110978",
+    key: "409070dcfcd483e07194",
+    secret: "8d377265f77e9556d659",
+    cluster: "ap2",
     useTLS: true
   });
 
@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cors());
 
 // DB config
-const connection_url = '#########################################################';
+const connection_url = 'mongodb+srv://admin:co5Z9VAI1w7HFiKK@cluster0.obp4q.mongodb.net/whatsappdb?retryWrites=true&w=majority';
 
 mongoose.connect(connection_url, {
     useCreateIndex: true,
