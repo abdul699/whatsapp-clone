@@ -9,7 +9,7 @@ import { SearchOutlined } from '@material-ui/icons'
 
 function Sidebar() {
     return (
-        <div class='sidebar'>
+        <div className='sidebar'>
             <div className="sidebar__header">
             <Avatar src="https://avatars0.githubusercontent.com/u/22918151?s=460&u=b57aaec1980368a333859145a5181cd6f6f12291&v=4"/>
                 <div className="sidebar__headerRight">
