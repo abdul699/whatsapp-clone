@@ -11,9 +11,9 @@ const port = process.env.PORT || 9000;
 
 // for realtime messaging -- Can use soket.io as well
 const pusher = new Pusher({
-    appId: "####",
-    key: "#######################",
-    secret: "#########################",
+    appId: "########",
+    key: "#################",
+    secret: "####################",
     cluster: "###",
     useTLS: true
   });
@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cors());
 
 // DB config
-const connection_url = '###################################';
+const connection_url = '#########################################################';
 
 mongoose.connect(connection_url, {
     useCreateIndex: true,
